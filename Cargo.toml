@@ -20,6 +20,9 @@ include = [
 ]
 rust-version = "1.85.0"
 
+[lib]
+name = "jsonwebtoken"
+
 [package.metadata.docs.rs]
 features = ["rust_crypto"]
 
