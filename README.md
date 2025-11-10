@@ -1,17 +1,19 @@
-# jsonwebtoken
+# jsonwebtoken-ic
 
-[API documentation on docs.rs](https://docs.rs/jsonwebtoken/)
+[API documentation on docs.rs](https://docs.rs/jsonwebtoken-ic/)
 
 See [JSON Web Tokens](https://en.wikipedia.org/wiki/JSON_Web_Token) for more information on what JSON Web Tokens are.
+
+> [!IMPORTANT]  
+> This is a fork of [`jsonwebtoken`](https://github.com/Keats/jsonwebtoken) for the [Internet Computer](https://internetcomputer.org).
+> Check out the amazing upstream project.
 
 ## Installation
 Add the following to Cargo.toml:
 
 ```toml
-# You will have to select either `aws_lc_rs` or `rust_crypto` as backend if you're not using your own
-jsonwebtoken = { version = "10", features = ["aws_lc_rs"] }
-# If you do not need pem decoding, you can disable the default feature `use_pem` that way:
-# jsonwebtoken = {version = "10", default-features = false, features = ["aws_lc_rs"] }
+# You have to select `rust_crypto`
+jsonwebtoken = { version = "10.2.0-ic.0", default-features = false, features = ["rust_crypto"] }
 serde = {version = "1.0", features = ["derive"] }
 ```
 
