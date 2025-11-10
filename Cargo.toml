@@ -1,12 +1,13 @@
 [package]
-name = "jsonwebtoken"
-version = "10.2.0"
-authors = ["Vincent Prouillet <hello@vincentprouillet.com>"]
+name = "jsonwebtoken-ic"
+version = "10.2.0-ic.0"
+authors = ["Vincent Prouillet <hello@vincentprouillet.com>", "David Dal Busco <david@fluster.io>"]
 license = "MIT"
 readme = "README.md"
-description = "Create and decode JWTs in a strongly typed way."
-homepage = "https://github.com/Keats/jsonwebtoken"
-repository = "https://github.com/Keats/jsonwebtoken"
+description = "A fork of jsonwebtoken for the Internet Computer."
+homepage = "https://github.com/peterpeterparker/jsonwebtoken-ic"
+repository = "https://github.com/peterpeterparker/jsonwebtoken-ic"
+documentation = "https://docs.rs/jsonwebtoken-ic"
 keywords = ["jwt", "api", "token", "jwk"]
 edition = "2024"
 include = [
