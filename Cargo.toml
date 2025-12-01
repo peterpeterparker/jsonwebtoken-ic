@@ -1,6 +1,6 @@
 [package]
 name = "jsonwebtoken-ic"
-version = "10.2.0-ic.0"
+version = "10.2.0-ic.1"
 authors = ["Vincent Prouillet <hello@vincentprouillet.com>", "David Dal Busco <david@fluster.io>"]
 license = "MIT"
 readme = "README.md"

@@ -13,7 +13,7 @@ Add the following to Cargo.toml:
 
 ```toml
 # You have to select `rust_crypto`
-jsonwebtoken = { version = "10.2.0-ic.0", default-features = false, features = ["rust_crypto"] }
+jsonwebtoken = { version = "10.2.0-ic.1", default-features = false, features = ["rust_crypto"] }
 serde = {version = "1.0", features = ["derive"] }
 ```
 
