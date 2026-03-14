@@ -4,7 +4,6 @@
 
 See [JSON Web Tokens](https://en.wikipedia.org/wiki/JSON_Web_Token) for more information on what JSON Web Tokens are.
 
-
 > [!IMPORTANT]  
 > This is a fork of [`jsonwebtoken`](https://github.com/Keats/jsonwebtoken) for the [Internet Computer](https://internetcomputer.org).
 > Check out the amazing upstream project.
