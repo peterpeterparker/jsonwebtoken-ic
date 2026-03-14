@@ -1,6 +1,6 @@
 # jsonwebtoken-ic
 
-[API documentation on docs.rs](https://docs.rs/jsonwebtoken/)
+[API documentation on docs.rs](https://docs.rs/jsonwebtoken-ic/)
 
 See [JSON Web Tokens](https://en.wikipedia.org/wiki/JSON_Web_Token) for more information on what JSON Web Tokens are.
 
