@@ -29,7 +29,7 @@ jobs:
             -   uses: dtolnay/rust-toolchain@stable
                 with:
                     components: clippy
-            -   run: cargo clippy --all-targets --features ${{ matrix.backend }}
+            -   run: cargo clippy --all-targets --no-default-features --features ${{ matrix.backend }}
 
     tests:
         name: Tests
@@ -59,7 +59,7 @@ jobs:
                 run: rustc --version
 
             -   name: Run tests default features
-                run: cargo test --features ${{ matrix.backend }}
+                run: cargo test --no-default-features --features ${{ matrix.backend }},use_pem
 
             -   name: Run tests no features
                 run: cargo test --no-default-features --features ${{ matrix.backend }}
@@ -80,7 +80,7 @@ jobs:
                 run: cargo install wasm-pack
 
             -   name: Run tests default features
-                run: wasm-pack test --node --features rust_crypto,getrandom/js
+                run: wasm-pack test --node --no-default-features --features rust_crypto,use_pem,getrandom/js
 
             -   name: Run tests no features
                 run: wasm-pack test --node --no-default-features --features rust_crypto,getrandom/js
