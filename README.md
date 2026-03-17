@@ -11,7 +11,6 @@ See [JSON Web Tokens](https://en.wikipedia.org/wiki/JSON_Web_Token) for more inf
 ## Installation
 Add the following to Cargo.toml:
 
-
 ```toml
 # You have to select `rust_crypto`
 jsonwebtoken = { version = "10.3.0-ic.", default-features = false, features = ["rust_crypto"] }
